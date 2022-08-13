@@ -1,13 +1,13 @@
 
 #### Local Build Deployment And Testing Information
 
-| Sl No | Purpose                     | Command                                                                  |
-|-------|-----------------------------|--------------------------------------------------------------------------|
-| 1     | Build Image                 | `docker compose build temperature-conversion-api`                        |
-| 2     | Run Tests                   | `docker compose run temperature-conversion-api  pytest --cov=api tests/` |
-| 3     | Deploy application          | `docker compose up temperature-conversion-api `                          |
-| 4     | Url EndPoint                | http://localhost:8000/graphql                                            |
-| 5     | API docs and PlayGround URL | http://localhost:8000/graphql                                            |
+| Sl No | Purpose                     | Command                                                                     |
+|-------|-----------------------------|-----------------------------------------------------------------------------|
+| 1     | Build Image                 | `docker compose build temperature-conversion-api`                           |
+| 2     | Run Tests                   | `docker compose run temperature-conversion-api  pytest --cov=api tests/ -v` |
+| 3     | Deploy application          | `docker compose up temperature-conversion-api `                             |
+| 4     | Url EndPoint                | http://localhost:8000/graphql                                               |
+| 5     | API docs and PlayGround URL | http://localhost:8000/graphql                                               |
 
 
 #### Curl Script for calling the API Locally After Deployment

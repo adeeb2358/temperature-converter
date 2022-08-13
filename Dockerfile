@@ -18,6 +18,5 @@ RUN pip3 install -U pytest-cov
 
 #copy everything in the source folder of host machine to docker
 COPY . /app
-
 EXPOSE 8000
 
