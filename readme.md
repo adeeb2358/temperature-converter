@@ -16,8 +16,8 @@
 `curl -g -X POST -H "Content-Type: application/json"  
 -d '{"query":"mutation {
   convertTemperature(inputTemperature: 68569.22, unitToConvert: FAHRENHEIT) {
-    unit
-    value
+    unit,
+    value,
     convertedAt
   }
 }"}' 
@@ -27,8 +27,8 @@ http://localhost:8000/graphql `
 `curl -g -X POST -H "Content-Type: application/json"  
 -d '{"query":"mutation {
   convertTemperature(inputTemperature: 123456.6, unitToConvert: DEGREE_CELSIUS) {
-    unit
-    value
+    unit,
+    value,
     convertedAt
   }
 }"}' 
