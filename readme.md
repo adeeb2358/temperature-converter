@@ -71,13 +71,14 @@
 | 1     | Mutation for converting degree celsius to fahrenheit and vice versa |
 | 2     | A query for application health check                                |
 
->1. Docker compose has been provided for local deployment
+1. Docker compose has been provided for local deployment
 
->2. Code coverage has been made to 100%  
+2. Code coverage has been made to 100%  
 
 ###### Further reference
-> [strawberry python](https://strawberry.rocks/docs)
-> [graphql core concepts](https://www.howtographql.com/basics/2-core-concepts/)
+1. [strawberry python](https://strawberry.rocks/docs)
+ 
+2. [graphql core concepts](https://www.howtographql.com/basics/2-core-concepts/)
 ##### Local Build Deployment And Testing Information
 
 | Sl No | Purpose                     | Command                                                                     |
