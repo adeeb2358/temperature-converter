@@ -7,7 +7,7 @@
 
 #### Technical Design Thoughts
 
-| Sl No | Suggestion                                                                                                                    | Additional Note                                                                                                             |
+| Sl No | Design Thoughts                                                                                                               | Additional Note                                                                                                             |
 |-------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | 1     | The API should be easy to maintain                                                                                            |                                                                                                                             |
 | 2     | Avoid boiler plate code                                                                                                       | Maximize the use of already tested open source libraries                                                                    |  
@@ -53,7 +53,8 @@
 | 3     | pytemperature (python package for temperature conversion)                 |
 | 4     | Server is configured to make all query and mutation request via HTTP Post | 
 | 5     | Fast API web server                                                       | 
- Additional Points
+ 
+> Additional Points
 
 | Sl No | Additional Points                                                                                                             |
 |-------|-------------------------------------------------------------------------------------------------------------------------------|
